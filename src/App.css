@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.btn{
+  margin: 2px;;
+}
+.divbtn{
+  float: right;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.noDisplay {
+  display: none;
+}
+
+.categoria {
+  margin-bottom: 10px;
+}
+
+.labelInput {
+  color: #efeeed;
+  border-bottom: 1px solid #efeeed !important;
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-radius: 0;
+}
+.labelInput:focus {
+  box-shadow: none !important;
+  border-bottom-color: #333333 !important;
+  border-radius: 0;
+}
+/* .labelInput:invalid {
+  color: #eb4a46;
+  border-bottom-color: #eb4a46 !important;
+  border-radius: 0;
+} */
+
+.botaoSucesso {
+  background: #00c8b3 !important;
+  border-color: #00c8b3 !important;
+  width: 50%;
+  height: 3rem;
+  border-radius: 35px !important;
+  font-size: 20px !important;
+}
+.botaoSucesso:hover {
+  opacity: 0.7;
+}
+.botaoSucesso:disabled {
+  color: #dddcdc !important;
+  background-color: #f6f6f6 !important;
+  border-color: #f6f6f6 !important;
+}
+
+.botaoVoltar {
+  float: right;
+}
+
+.buttons {
+  margin-top: 15px !important;
+}
+
+.loading {
+  width: 30px;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btnVoltar {
+  margin-bottom: 8px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
